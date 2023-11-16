@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: bisque;
+}
+
+nav {
+  color: rgb(255, 255, 255);
+  padding: 7px 20px;
+  background-color: rgb(255, 123, 0);
+  display: flex;
+}
+nav .hed {
+  padding-right: 25px;
+  color: white;
+  font-size: 18px;
+  padding-top: 18px;
+}
+nav .threedot {
+  float: right;
+  display: flex;
+}
+nav i {
+  padding-right: 5px;
+}
+
+.search {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  margin: 20px 20px;
+  padding: 10px;
+  border-radius: 25px;
+}
+.search input {
+  background: none;
+  width: 87%;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+}
+.search i {
+  float: right;
+  font-size: 25px;
+  color: rgb(130, 128, 128);
+  padding-right: 7px;
+}
+
+.plus {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: rgb(255, 123, 0);
+  color: white;
+  position: absolute;
+  bottom: 25px;
+  right: 35px;
+  box-shadow: -1px 12px 20px 2px rgba(0, 0, 0, 0.28);
+  text-decoration: none;
+}
+.plus i {
+  font-size: 20px;
+  padding-top: 21px;
+  padding-left: 22px;
+  color: white;
+}
+
+.btn-one {
+  color: white;
+  background-color: rgb(255, 123, 0);
+  margin-left: 45%;
+}
+
+.title {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 30vw;
+  height: 60px;
+}
+.title input {
+  background: none;
+  width: 87%;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+}
+.title i {
+  float: right;
+  font-size: 25px;
+  color: rgb(130, 128, 128);
+  padding-right: 7px;
+}
+
+.sum {
+  padding-bottom: 8px;
+  padding-top: 10px;
+  margin-left: 45.5%;
+}
+
+.box {
+  background: white;
+  width: 30vw;
+  margin: auto;
+  border-radius: 5px;
+  height: 65px;
+}
+.box form {
+  padding: 5px;
+  display: flex;
+}
+
+form .check-box {
+  margin-top: 20px;
+  margin-left: -10px;
+  font-size: 20px;
+}
+form .box-1 {
+  width: 190px;
+  border: none;
+  outline: none;
+  margin-top: 13px;
+  margin-left: 0px;
+  font-size: 14px;
+}
+form .amount {
+  width: 100px;
+  border: none;
+  padding-top: 3px;
+  position: absolute;
+  padding-left: 2px;
+  margin-top: 13px;
+  font-size: 14px;
+}
+form button {
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.date {
+  font-size: 13px;
+  margin-top: -10px;
+  margin-left: 15px;
+  position: absolute;
+}
+
+.three-dot {
+  color: white;
+}
+
+.three-dot:hover {
+  color: white;
+}
+
+section {
+  width: 86%;
+  margin: auto;
+}
+
+.main-screen {
+  width: 43%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.inside {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  min-width: 160px;
+  margin: 5px;
+}
+.inside .notes {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 751px) {
+  .main-screen {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (max-width: 750px) {
+  .main-screen {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .title {
+    width: 90vw;
+  }
+  .sum {
+    margin-left: 38%;
+  }
+  .box {
+    width: 90vw;
+  }
+  form .box-1 {
+    width: 180px;
+  }
+  form .amount {
+    width: 80px;
+    padding: 0px;
+    margin-top: 15px;
+  }
+  .btn-one {
+    margin-left: 34%;
+  }
+}
+.btn-two {
+  display: flex;
+  font-size: 20px;
+  margin-top: 3px;
+}/*# sourceMappingURL=Notes.css.map */

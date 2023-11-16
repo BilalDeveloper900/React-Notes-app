@@ -1,38 +1,152 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: bisque;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
+  color: rgb(255, 255, 255);
+  padding: 7px 20px;
+  background-color: rgb(255, 123, 0);
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+nav .hed {
+  padding-right: 25px;
+  color: white;
+  font-size: 18px;
+  padding-top: 13px;
+}
+
+nav .threedot {
+  float: right;
+  display: flex;
+}
+
+nav i {
+  padding-right: 5px;
+}
+
+.search {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  margin: 20px 20px;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.search input {
+  background: none;
+  width: 87%;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+}
+
+.search i {
+  float: right;
+  font-size: 25px;
+  color: rgb(130, 128, 128);
+  padding-right: 7px;
+}
+
+.plus {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: rgb(255, 123, 0);
+  color: white;
+  position: absolute;
+  bottom: 25px;
+  right: 35px;
+  box-shadow: -1px 12px 20px 2px rgba(0, 0, 0, 0.28);
+  text-decoration: none;
+}
+
+.plus i {
+  font-size: 20px;
+  padding-top: 21px;
+  padding-left: 22px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-one {
+  color: white;
+  background-color: rgb(255, 123, 0);
+  margin-left: 31.5%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  margin: 20px 20px;
+  padding: 10px;
+  border-radius: 5px;
 }
+
+.title input {
+  background: none;
+  width: 87%;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+}
+
+.title i {
+  float: right;
+  font-size: 25px;
+  color: rgb(130, 128, 128);
+  padding-right: 7px;
+}
+
+.sum {
+  padding-left: 19px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+
+.box {
+  background: white;
+  width: 90%;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.box form {
+  padding: 5px;
+  display: flex;
+}
+
+.box-1 {
+  width: 190px;
+  border: none;
+  outline: none;
+  height: 25px;
+}
+
+.amount {
+  width: 70px;
+  border: none;
+  padding-top: 3px;
+  position: absolute;
+  padding-left: 2px;
+  margin: 0 5px;
+}
+
+.form-check-input {
+  margin-top: 11px;
+}
+
+.three-dot {
+  color: white;
+}
+
+.three-dot:hover {
+  color: white;
+} /*# sourceMappingURL=App.css.map */
